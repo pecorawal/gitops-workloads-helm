@@ -1,8 +1,8 @@
 environment: production
 replicaCount: 3 # Alta disponibilidade em Prod
 image:
-  repository: quay.io/sua-org/checkout-frontend
-  tag: "v1.0.0" # Tag imutável para produção
+  repository: default-route-openshift-image-registry.apps.jmbquzwd.eastus.aroapp.io/checkout-frontend-ci/checkout-frontend
+  tag: "b58897d1-6fd0-49bb-b55c-d36323d2d54a" # Tag imutável para produção
 service:
   type: ClusterIP
   port: 8080
