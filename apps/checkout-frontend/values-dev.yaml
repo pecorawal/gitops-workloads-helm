@@ -2,7 +2,7 @@ environment: dev
 replicaCount: 1
 image:
   repository: image-registry.openshift-image-registry.svc:5000/checkout-frontend-ci/checkout-frontend
-  tag: "dev-latest"
+  tag: "c28cd9c8-6697-4899-a524-09033dc3361b"
 service:
   type: ClusterIP
   port: 80
