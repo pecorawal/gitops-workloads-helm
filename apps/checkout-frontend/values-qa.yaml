@@ -1,0 +1,16 @@
+environment: qa
+replicaCount: 2
+image:
+  repository: quay.io/sua-org/checkout-frontend
+  tag: "rc-1.0.0"
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+resources:
+  requests:
+    cpu: 200m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
