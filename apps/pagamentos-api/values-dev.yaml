@@ -1,7 +1,7 @@
 environment: dev
 replicaCount: 1
 image:
-  repository: quay.io/sua-org/pagamentos-api
+  repository: image-registry.openshift-image-registry.svc:5000/pagamentos-api-ci/pagamentos-api
   tag: "dev-latest" # A pipeline de CI vai alterar esta linha
 service:
   type: ClusterIP

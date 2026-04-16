@@ -1,7 +1,7 @@
 environment: dev
 replicaCount: 1
 image:
-  repository: quay.io/sua-org/checkout-frontend
+  repository: image-registry.openshift-image-registry.svc:5000/checkout-frontend-ci/checkout-frontend
   tag: "dev-latest"
 service:
   type: ClusterIP
