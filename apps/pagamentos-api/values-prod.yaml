@@ -1,4 +1,4 @@
-environment: production
+environment: prod
 replicaCount: 3 # Alta disponibilidade em Prod
 image:
   repository: default-route-openshift-image-registry.apps.hub-cluster.com/pagamentos-api-ci/pagamentos-api
