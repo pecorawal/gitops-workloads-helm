@@ -1,7 +1,7 @@
 environment: prod
 replicaCount: 3 # Alta disponibilidade em Prod
 image:
-  repository: default-route-openshift-image-registry.apps.hub-cluster.com/pagamentos-api-ci/pagamentos-api
+  repository: default-route-openshift-image-registry.apps.jmbquzwd.eastus.aroapp.io/pagamentos-api-ci/pagamentos-api
   tag: "12e9666f-fdf8-4218-9c01-dba68d8e1c79" # Tag imutável para produção
 service:
   type: ClusterIP
