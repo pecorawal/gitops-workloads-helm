@@ -27,5 +27,5 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
-            - name: Ambiente
+            - name: ambiente
               value: {{ .Values.environment | quote }}
