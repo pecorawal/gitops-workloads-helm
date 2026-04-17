@@ -5,7 +5,7 @@ image:
   tag: "b58897d1-6fd0-49bb-b55c-d36323d2d54a"
 service:
   type: ClusterIP
-  port: 80
+  port: 8080
   targetPort: 3000 # Geralmente Node/React roda na 3000
 resources:
   requests:
