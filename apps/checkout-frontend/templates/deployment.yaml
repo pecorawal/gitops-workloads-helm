@@ -5,6 +5,7 @@ metadata:
   labels:
     app: {{ .Chart.Name }}
     env: {{ .Values.environment }}
+    ambiente: {{ .Values.ambiente }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:

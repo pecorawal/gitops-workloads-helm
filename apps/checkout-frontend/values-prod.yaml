@@ -1,4 +1,5 @@
 environment: prod
+ambiente: prod
 replicaCount: 3 # Alta disponibilidade em Prod
 image:
   repository: default-route-openshift-image-registry.apps.jmbquzwd.eastus.aroapp.io/checkout-frontend-ci/checkout-frontend
