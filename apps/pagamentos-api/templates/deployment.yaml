@@ -25,3 +25,6 @@ spec:
               protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          env:
+            - name: ambiente 
+              value: {{ .Values.environment | quote }}
