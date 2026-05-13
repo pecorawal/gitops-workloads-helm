@@ -33,6 +33,8 @@ No diretório da aplicação, há um arquivo values-<ambiente>.yaml, defina os d
 │       ├── values-prod.yaml
 │       └── values-qa.yaml
 └── tree.bak
+
+8 directories, 17 files
 ```
 <!-- readme-tree end -->
 
