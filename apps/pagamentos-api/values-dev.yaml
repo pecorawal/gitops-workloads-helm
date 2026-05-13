@@ -2,7 +2,7 @@ environment: dev
 replicaCount: 1
 image:
   repository: image-registry.openshift-image-registry.svc:5000/pagamentos-api-ci/pagamentos-api
-  tag: "8c6473c"
+  tag: "17054f3"
 service:
   type: ClusterIP
   port: 8080
